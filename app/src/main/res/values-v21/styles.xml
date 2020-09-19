@@ -1,0 +1,9 @@
+
+
+<resources>
+
+    <style name="Theme.Yff" parent="Base.Theme.Yff">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

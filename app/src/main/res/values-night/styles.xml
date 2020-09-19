@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
+    <style name="Base.Theme.Yff" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_900</item>
+        <item name="colorOnPrimary">@color/yellow_300</item>
+        <item name="colorPrimaryDark">@color/gray_50_a600</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorAccent">@color/green_300</item>
+        <item name="colorSurface">@color/green_900</item>
+        <item name="colorSecondary">@color/yellow_300</item>
+        <item name="android:colorBackground">@color/green_900</item>
+    </style>
+
+    <style name="Theme.Yff" parent="Base.Theme.Yff" />
+
+    <style name="Theme.Yff.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Yff.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="TextAppearance.Yff.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+</resources>
