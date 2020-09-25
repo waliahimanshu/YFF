@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name" translatable="false">YFF - Your financial freedom</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_add_entry">Add</string>
+    <string name="title_read_more">More</string>
 
     <!-- resources -->
 

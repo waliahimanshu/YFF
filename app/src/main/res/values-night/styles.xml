@@ -1,7 +1,7 @@
 <resources>
 
     <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
-    <style name="Base.Theme.Yff" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="App.Theme.Yff" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/green_900</item>
         <item name="colorOnPrimary">@color/yellow_300</item>
         <item name="colorPrimaryDark">@color/gray_50_a600</item>
@@ -12,7 +12,7 @@
         <item name="android:colorBackground">@color/green_900</item>
     </style>
 
-    <style name="Theme.Yff" parent="Base.Theme.Yff" />
+    <style name="Theme.Yff" parent="App.Theme.Yff" />
 
     <style name="Theme.Yff.NoActionBar">
         <item name="windowActionBar">false</item>
