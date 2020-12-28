@@ -16,10 +16,10 @@ buildscript {
         espressoVersion = '3.1.1'
         fragmentVersion = '1.1.0-alpha09'
         glideVersion = '4.10.0'
-        gradleVersion = '4.0.1'
+        gradleVersion = '7.0.0-alpha03'
         gsonVersion = '2.8.2'
         junitVersion = '4.12'
-        kotlinVersion = '1.4.0'
+        kotlinVersion = '1.4.21'
         ktlintVersion = '0.38.1'
         ktxVersion = '1.0.2'
         lifecycleVersion = '2.2.0'
@@ -36,7 +36,9 @@ buildscript {
         uiAutomatorVersion = '2.2.0'
         viewPagerVersion = '1.0.0'
         workVersion = '2.1.0'
-        kotlin_version = '1.4.10'
+        compose_version = '1.0.0-alpha09'
+        room_version = '2.2.5'
+
     }
 
     repositories {
@@ -48,6 +50,7 @@ buildscript {
         classpath "com.android.tools.build:gradle:$gradleVersion"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+
     }
 }
 
